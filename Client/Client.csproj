@@ -24,4 +24,9 @@
     <Folder Include="models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="ssl\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

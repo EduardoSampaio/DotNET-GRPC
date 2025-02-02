@@ -1,10 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proto", "proto", "{3F8B24F8-626E-4AD2-B312-759BC12E2D9F}"
 	ProjectSection(SolutionItems) = preProject
+		blog.proto = blog.proto
 		dummy.proto = dummy.proto
 		greeting.proto = greeting.proto
 	EndProjectSection
@@ -12,6 +13,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{1951EB27-F5EC-4881-970E-0021B6850ACE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "server", "Server\server.csproj", "{0CA22ADA-9659-468A-A2F0-AFDF543CE03B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA7F2718-4D16-4E14-A874-944CB8F8E8DF}"
+	ProjectSection(SolutionItems) = preProject
+		ssl\ssl.sh = ssl\ssl.sh
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
