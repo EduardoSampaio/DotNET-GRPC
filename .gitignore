@@ -1,0 +1,66 @@
+# Visual Studio e arquivos de build
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Diretórios de build e binários
+bin/
+obj/
+out/
+Debug/
+Release/
+
+# Arquivos de log, cache e temporários
+*.log
+*.cache
+*.pdb
+*.ilk
+*.sdf
+*.tlog
+
+# Configurações específicas do Visual Studio Code
+.vscode/
+
+# Dependências do NuGet
+*.nupkg
+packages/
+project.lock.json
+*.nuget.props
+*.nuget.targets
+
+# Configurações locais e arquivos gerados automaticamente
+appsettings*.json
+secrets.json
+
+# Publicação e deploy
+publish/
+*.Publish.xml
+
+# Docker e Kubernetes
+docker-compose.override.yml
+.kube/
+
+# Arquivos específicos do sistema operacional
+Thumbs.db
+.DS_Store
+*.swp
+
+# Rider (JetBrains)
+.idea/
+*.iml
+
+# Arquivos de testes
+TestResults/
+coverage/
+
+# Arquivos do Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Snapshots do Godot (se usado no Visual Studio)
+*.godot/
+
+# Arquivos do SonarQube
+.sonar/
